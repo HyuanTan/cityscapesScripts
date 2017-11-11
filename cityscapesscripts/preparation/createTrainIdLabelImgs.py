@@ -65,7 +65,7 @@ def main():
 
         # do the conversion
         try:
-            json2labelImg( f , dst , "trainIds" )
+            json2labelImg( f , dst , "Ids" )
         except:
             print("Failed to convert: {}".format(f))
             raise
